@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Internet-Technologies/static/css/main.272439fc.chunk.css",
+    "main.js": "/Internet-Technologies/static/js/main.011c47db.chunk.js",
+    "runtime-main.js": "/Internet-Technologies/static/js/runtime-main.fba2b60a.js",
+    "static/js/2.788437a9.chunk.js": "/Internet-Technologies/static/js/2.788437a9.chunk.js",
+    "index.html": "/Internet-Technologies/index.html",
+    "precache-manifest.fab03e0913d5816439481c4065a2e99e.js": "/Internet-Technologies/precache-manifest.fab03e0913d5816439481c4065a2e99e.js",
+    "service-worker.js": "/Internet-Technologies/service-worker.js",
+    "static/js/2.788437a9.chunk.js.LICENSE": "/Internet-Technologies/static/js/2.788437a9.chunk.js.LICENSE",
+    "static/media/App.css": "/Internet-Technologies/static/media/bg.8b5d4ae3.png",
+    "static/media/img.png": "/Internet-Technologies/static/media/img.1d77156d.png",
+    "static/media/variants1.png": "/Internet-Technologies/static/media/variants1.42a49cef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fba2b60a.js",
+    "static/js/2.788437a9.chunk.js",
+    "static/css/main.272439fc.chunk.css",
+    "static/js/main.011c47db.chunk.js"
+  ]
+}
