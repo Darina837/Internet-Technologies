@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+header {
+  background-color: rgb(220, 213, 213);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px 10px 0;
+  min-height: 32vh;
+}
+
+/* контейнер для ссылок по семестрам */
+.mainLink { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ссылки по семестрам */
+.linkMain {
+  text-decoration: none;
+  color: rgb(84, 116, 145);
+  font-weight: bolder;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.linkMain:hover {
+  color: rgb(6, 21, 30);
+  text-decoration: overline;
+}
+
+/* контейнер для ссылок по лабораторным */
+.frontLinks, .backLinks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* ссылка на лабу */
+.linkLaba {
+  text-decoration: none;
+  color: rgb(26, 32, 37);
+  background-color: #fff;
+  transition: all 0.7s ease-in-out;
+}
+.linkLaba:hover {
   color: white;
+  background-color: rgb(26, 32, 37);
 }
 
-.App-link {
-  color: #61dafb;
+/* контейнер для главной инфо вместе с боковыми */
+.content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* контейнер для главной инфо */
+main {
+  background-color: rgb(148, 140, 140);
+  min-width: 50%;
+  color: rgb(51, 70, 88);
 }
+main>h1 {
+  text-align: center;
+}
+.wrapperMain {
+  margin: 10px 25px;
+}
+h1 {
+  padding: 20px;
+}
+hr {
+  margin-bottom: 20px;
+}
+
+#variant {
+  max-width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+div>h4 {
+  margin: 15px 5px;
+}
+/* контейнер для боковых */
+aside {
+  background-color: rgb(255, 255, 255);
+  background-image: url(media/bg.png);
+  background-repeat: repeat;
+  min-width: 25%;
+}
+
+.AsideMenu, .Lections {
+  background: rgb(197, 197, 197);
+  opacity: 0.9;
+  text-align: center;
+  padding: 10px;
+}
+.linksAside, a {
+  text-decoration: none;
+  color: rgb(84, 116, 145);
+  font-weight: bolder;
+  font-style: italic;
+  transition: all 0.7s ease-in-out;
+}
+.linksAside:hover, a:hover {
+  color: rgb(23, 32, 41);
+  text-decoration: overline;
+}
+
+/* контейнер для футера */
+footer {
+  text-align: center;
+  background-color: rgb(220, 213, 213);
+  padding: 10px 5px;
+  min-height: 3vh;
+}
+
+.score {
+  margin: 15px;
+}
+.table {
+  margin: 15px;
+}
+
+table {
+  width: 100%; 
+  border: 4px double black;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+th { 
+  text-align: center; 
+  background: #ccc; 
+  padding: 5px; 
+  border: 1px solid black; 
+ }
+ td { 
+  padding: 5px; 
+  border: 1px solid black; 
+  text-align: center;
+ }
+ tr:hover {
+   background-color: rgb(20, 18, 52);
+   color: white;
+ }
